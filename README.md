@@ -7,20 +7,13 @@ Dataset: [Coffee sales (Kaggle)](https://www.kaggle.com/datasets/ihelon/coffee-s
 
 ```
 .
-├── data/
-│   ├── raw/          # dado original, nunca editado (coffee_sales.csv)
-│   ├── interim/      # conjunto diário com variáveis criadas 
-│   └── processed/    # train.csv, validation.csv, scaler.joblib 
+├── dataset/
+│   ├── coffee_sales.csv 
 ├── notebooks/
-│   ├── 00_teste03_estatistica_descritiva.ipynb          
-│   └── 01_estatistica_descritiva_preprocessamento.ipynb # Parte 1 do projeto
-├── reports/
-│   └── figures/      # gráficos salvos pelos notebooks
+│   ├── coffee_sales.ipynb          
 ├── requirements.txt
 └── README.md
 ```
-
-`interim/` e `processed/` são regenerados ao executar o notebook 01 e não são versionados.
 
 ## Como executar
 
